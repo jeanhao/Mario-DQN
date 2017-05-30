@@ -47,7 +47,6 @@ class Mario(pygame.sprite.Sprite):
             self.x_vel -= MARIO_X_ACC
             self.running = True
             self.walkingRight = False
-        self.x_vel *= MARIO_FRICTION
 
         if self.midair:
             self.animTick = 0
